@@ -160,6 +160,7 @@ int main()
     } while(choice != 0);
 
     delete[] arr;
+  arr=nullptr;
 
     return 0;
 }
